@@ -26,5 +26,5 @@ p6df::modules::sudo::deps() {
 ######################################################################
 p6df::modules::sudo::profile::mod() {
 
-  p6_return_words 'sudo' "$SUDO_UID"
+  p6_return_words 'sudo' '$SUDO_UID'
 }
