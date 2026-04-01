@@ -12,3 +12,19 @@ p6df::modules::sudo::deps() {
         ohmyzsh/ohmyzsh:plugins/sudo
     )
 }
+
+######################################################################
+#<
+#
+# Function: words sudo $SUDO_UID = p6df::modules::sudo::profile::mod()
+#
+#  Returns:
+#	words - sudo $SUDO_UID
+#
+#  Environment:	 SUDO_UID
+#>
+######################################################################
+p6df::modules::sudo::profile::mod() {
+
+  p6_return_words 'sudo' '$SUDO_UID'
+}
