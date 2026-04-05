@@ -16,10 +16,10 @@ p6df::modules::sudo::deps() {
 ######################################################################
 #<
 #
-# Function: words sudo $SUDO_UID = p6df::modules::sudo::profile::mod()
+# Function: words sudo = p6df::modules::sudo::profile::mod()
 #
 #  Returns:
-#	words - sudo $SUDO_UID
+#	words - sudo
 #
 #  Environment:	 SUDO_UID
 #>

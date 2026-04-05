@@ -36,6 +36,7 @@ TODO: Add a short summary of this module.
 ##### p6df-sudo/init.zsh
 
 - `p6df::modules::sudo::deps()`
+- `words sudo = p6df::modules::sudo::profile::mod()`
 
 ## Hierarchy
 
